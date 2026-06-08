@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stock Market Training - 🌟 Sakshi & Rahul Wealth Academy & Consultancy</title>
+    <meta name="description" content="नए और अनुभवी निवेशकों के लिए प्रीमियम शेयर मार्केट ट्रेनिंग। ट्रेडिंग रणनीतियाँ, प्राइस एक्शन और रिस्क मैनेजमेंट सीखें।">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        .page-header {
+            padding: 150px 20px 80px;
+            background: linear-gradient(rgba(10, 37, 64, 0.9), rgba(16, 185, 129, 0.8)), url('https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?auto=format&fit=crop&q=80') center/cover;
+            color: var(--white);
+            text-align: center;
+        }
+        .page-header h1 {
+            font-size: 3.5rem;
+            margin-bottom: 20px;
+        }
+        .module-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            margin-top: 50px;
+        }
+        .module-card {
+            background: var(--white);
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 -3px 15px rgba(59, 130, 246, 0.1), 0 5px 20px rgba(212, 175, 55, 0.2);
+            text-align: left;
+            border-top: 4px solid var(--accent-blue);
+            border-bottom: 4px solid var(--secondary);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .module-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 -5px 20px rgba(59, 130, 246, 0.2), 0 15px 40px rgba(212, 175, 55, 0.3);
+        }
+        .module-card h3 {
+            color: var(--primary);
+            font-size: 1.5rem;
+            margin-bottom: 15px;
+        }
+        .module-card ul {
+            list-style: none;
+            padding: 0;
+            color: var(--text-dark);
+        }
+        .module-card ul li {
+            margin-bottom: 10px;
+            display: flex;
+            align-items: center;
+        }
+        .module-card ul li i {
+            color: var(--success);
+            margin-right: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <div class="logo" style="line-height: 1.3;">
+            <div style="font-size: 24px; font-weight: 700; color: var(--white);">🌟 Sakshi & Rahul</div>
+            <div style="font-size: 14px; color: #000000; font-weight: 600;">Wealth Academy & Consultancy</div>
+            <div style="font-size: 11px; color: var(--accent-blue); letter-spacing: 0.8px; margin-top: 2px; font-style: italic; font-weight: 600;">"Empowering Investors, Creating Wealth"</div>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html#home">होम</a></li>
+                <li><a href="index.html#about">हमारे बारे में</a></li>
+                <li class="dropdown">
+                    <a href="index.html#services">सेवाएँ <i class="fa-solid fa-chevron-down" style="font-size: 12px; margin-left: 3px;"></i></a>
+                    <div class="dropdown-content">
+                        <a href="consultancy.html"><i class="fa-solid fa-handshake" style="margin-right: 8px;"></i> Consultancy Charges</a>
+                        <a href="training.html"><i class="fa-solid fa-chalkboard-user" style="margin-right: 8px;"></i> Stock Market Training</a>
+                    </div>
+                </li>
+                <li><a href="blog.html">ब्लॉग</a></li>
+                <li><a href="index.html#calculators">कैलकुलेटर्स</a></li>
+                <li><a href="index.html#contact" class="btn-primary" style="padding: 10px 20px; box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);">परामर्श बुक करें</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <span class="badge" style="background: rgba(255,255,255,0.2); border: none; color: var(--white);">Premium Masterclass</span>
+            <h1>Stock Market Training</h1>
+            <p style="font-size: 1.2rem; max-width: 800px; margin: 0 auto; opacity: 0.9;">क्या आप शेयर मार्केट में एक स्वतंत्र और सफल ट्रेडर/इन्वेस्टर बनना चाहते हैं? हमारा ट्रेनिंग प्रोग्राम बेसिक से लेकर एडवांस लेवल तक सब कुछ कवर करता है। टिप्स पर निर्भर रहने के बजाय खुद का एनालिसिस करना सीखें।</p>
+        </div>
+    </section>
+
+    <!-- Course Modules Section -->
+    <section class="section" style="background: var(--light-bg);">
+        <div class="container">
+            <div class="section-header text-center">
+                <h2 style="color: var(--primary);">ट्रेनिंग में <span>क्या-क्या शामिल है?</span></h2>
+                <p>हमने इस कोर्स को पूरी तरह से प्रैक्टिकल और डाटा आधारित बनाया है ताकि आप बाज़ार की असली सच्चाइयों को समझ सकें।</p>
+            </div>
+
+            <div class="module-grid">
+                <!-- Module 1 -->
+                <div class="module-card">
+                    <div style="font-size: 2.5rem; color: var(--secondary); margin-bottom: 15px;"><i class="fa-solid fa-book-open"></i></div>
+                    <h3>Module 1: Basics of Stock Market</h3>
+                    <ul>
+                        <li><i class="fa-solid fa-check"></i> शेयर बाजार क्या है और कैसे काम करता है?</li>
+                        <li><i class="fa-solid fa-check"></i> डीमैट अकाउंट, IPOs, और ट्रेडिंग टर्म्स।</li>
+                        <li><i class="fa-solid fa-check"></i> BSE, NSE और इंडेक्स (Nifty, Sensex) की समझ।</li>
+                        <li><i class="fa-solid fa-check"></i> निवेश के प्रकार और पोर्टफोलियो डायवर्सिफिकेशन।</li>
+                    </ul>
+                </div>
+                
+                <!-- Module 2 -->
+                <div class="module-card">
+                    <div style="font-size: 2.5rem; color: var(--secondary); margin-bottom: 15px;"><i class="fa-solid fa-chart-line"></i></div>
+                    <h3>Module 2: Technical & Chart Analysis</h3>
+                    <ul>
+                        <li><i class="fa-solid fa-check"></i> कैंडलस्टिक पैटर्न और चार्ट पढ़ना।</li>
+                        <li><i class="fa-solid fa-check"></i> सपोर्ट (Support) और रेजिस्टेंस (Resistance)।</li>
+                        <li><i class="fa-solid fa-check"></i> इंडिकेटर्स (RSI, MACD, Moving Averages)।</li>
+                        <li><i class="fa-solid fa-check"></i> प्राइस एक्शन और वॉल्यूम एनालिसिस।</li>
+                    </ul>
+                </div>
+
+                <!-- Module 3 -->
+                <div class="module-card">
+                    <div style="font-size: 2.5rem; color: var(--secondary); margin-bottom: 15px;"><i class="fa-solid fa-chart-pie"></i></div>
+                    <h3>Module 3: FNO (Futures & Options)</h3>
+                    <ul>
+                        <li><i class="fa-solid fa-check"></i> ऑप्शंस क्या हैं (Call & Put)?</li>
+                        <li><i class="fa-solid fa-check"></i> ऑप्शन चेन (Option Chain) एनालिसिस।</li>
+                        <li><i class="fa-solid fa-check"></i> हेजिंग (Hedging) और ट्रेडिंग स्ट्रैटेजीज।</li>
+                        <li><i class="fa-solid fa-check"></i> एक्सपायरी डे ट्रेडिंग तकनीक।</li>
+                    </ul>
+                </div>
+
+                <!-- Module 4 -->
+                <div class="module-card">
+                    <div style="font-size: 2.5rem; color: var(--secondary); margin-bottom: 15px;"><i class="fa-solid fa-shield-halved"></i></div>
+                    <h3>Module 4: Risk Management & Psychology</h3>
+                    <ul>
+                        <li><i class="fa-solid fa-check"></i> स्टॉप-लॉस (Stop-Loss) और पोजीशन साइजिंग।</li>
+                        <li><i class="fa-solid fa-check"></i> कैपिटल प्रोटेक्शन (पूंजी बचाना)।</li>
+                        <li><i class="fa-solid fa-check"></i> लालच और डर (Greed & Fear) पर नियंत्रण।</li>
+                        <li><i class="fa-solid fa-check"></i> एक सफल ट्रेडर का माइंडसेट।</li>
+                    </ul>
+                </div>
+
+                <!-- Module 5 -->
+                <div class="module-card">
+                    <div style="font-size: 2.5rem; color: var(--secondary); margin-bottom: 15px;"><i class="fa-solid fa-magnifying-glass-chart"></i></div>
+                    <h3>Module 5: Fundamental Analysis</h3>
+                    <ul>
+                        <li><i class="fa-solid fa-check"></i> लॉन्ग-टर्म वेल्थ क्रिएशन स्ट्रैटेजी।</li>
+                        <li><i class="fa-solid fa-check"></i> कंपनी की बैलेंस शीट और P&L पढ़ना।</li>
+                        <li><i class="fa-solid fa-check"></i> सही स्टॉक (Multibagger) कैसे चुनें?</li>
+                        <li><i class="fa-solid fa-check"></i> अंडरवैल्यूड (सस्ते) शेयर की पहचान।</li>
+                    </ul>
+                </div>
+
+                <!-- Module 6 -->
+                <div class="module-card">
+                    <div style="font-size: 2.5rem; color: var(--secondary); margin-bottom: 15px;"><i class="fa-solid fa-desktop"></i></div>
+                    <h3>Module 6: Live Trading & Setups</h3>
+                    <ul>
+                        <li><i class="fa-solid fa-check"></i> लाइव मार्केट में ट्रेडिंग सेटअप्स का उपयोग।</li>
+                        <li><i class="fa-solid fa-check"></i> गैप-अप और गैप-डाउन ट्रेडिंग स्ट्रैटेजी।</li>
+                        <li><i class="fa-solid fa-check"></i> 9:15 AM ओपनिंग मार्केट एनालिसिस।</li>
+                        <li><i class="fa-solid fa-check"></i> व्यक्तिगत डाउट क्लीयरिंग सेशन।</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div style="text-align: center; margin-top: 60px;">
+                <h3 style="font-size: 1.8rem; color: var(--primary); margin-bottom: 20px;">सीखने की शुरुआत करने के लिए तैयार हैं?</h3>
+                <p style="color: var(--text-dark); margin-bottom: 30px; font-size: 1.1rem;">ट्रेनिंग की फीस, बैच की टाइमिंग और अन्य डिटेल्स के लिए हमें संपर्क करें।</p>
+                <a href="https://wa.me/919828414285?text=Hello%20Rahul%20Ji,%20I%20am%20interested%20in%20the%20Stock%20Market%20Training%20program." target="_blank" class="btn-primary" style="font-size: 1.2rem; padding: 15px 40px; margin-right: 15px;">
+                    <i class="fa-brands fa-whatsapp" style="margin-right: 10px;"></i> WhatsApp पर बात करें
+                </a>
+                <a href="index.html#contact" class="btn-secondary" style="font-size: 1.2rem; padding: 15px 40px;">
+                    कॉल अनुरोध भेजें
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer style="background: var(--primary); padding: 50px 20px; color: var(--white); text-align: center;">
+        <div class="container">
+            <p style="opacity: 0.7; font-size: 14px; max-width: 800px; margin: 0 auto 20px;">
+                <strong>बंदिशें और कानूनी नोटिस:</strong> शेयर मार्केट में निवेश और ट्रेडिंग जोखिम के अधीन हैं। ट्रेनिंग केवल शैक्षणिक उद्देश्यों के लिए है। किसी भी प्रकार का निवेश निर्णय लेने से पहले अपनी वित्तीय स्थिति और जोखिम क्षमता का मूल्यांकन अवश्य करें।
+            </p>
+            <p style="font-weight: 600;">&copy; 2026 Sakshi & Rahul Wealth Academy & Consultancy. सर्वाधिकार सुरक्षित।</p>
+        </div>
+    </footer>
+
+</body>
+</html>

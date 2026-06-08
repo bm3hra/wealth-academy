@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog - 🌟 Sakshi & Rahul Wealth Academy & Consultancy</title>
+    <meta name="description" content="शेयर मार्केट टिप्स, निवेश रणनीतियाँ और वित्तीय साक्षरता पर हमारे नवीनतम आर्टिकल्स पढ़ें।">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Hind:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .blog-header {
+            background: linear-gradient(rgba(10, 37, 64, 0.9), rgba(19, 59, 92, 0.95)), url('https://images.unsplash.com/photo-1432821596592-e2c18b78144f?auto=format&fit=crop&q=80') center/cover;
+            padding: 150px 0 80px;
+            text-align: center;
+            color: var(--white);
+        }
+        
+        .blog-container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 60px 20px;
+        }
+
+        .article-card {
+            background: var(--white);
+            border-radius: 20px;
+            overflow: hidden;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+            margin-bottom: 50px;
+            transition: transform 0.3s ease;
+        }
+
+        .article-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .article-img {
+            width: 100%;
+            height: 300px;
+            object-fit: cover;
+        }
+
+        .article-content {
+            padding: 40px;
+        }
+
+        .article-meta {
+            color: var(--accent-blue);
+            font-size: 14px;
+            font-weight: 600;
+            margin-bottom: 15px;
+            display: flex;
+            gap: 20px;
+            align-items: center;
+        }
+
+        .article-meta i {
+            margin-right: 5px;
+        }
+
+        .article-title {
+            color: var(--primary);
+            font-size: 2rem;
+            margin-bottom: 20px;
+            line-height: 1.3;
+        }
+
+        .article-text {
+            color: var(--text-dark);
+            line-height: 1.8;
+            font-size: 16px;
+            margin-bottom: 25px;
+        }
+
+        .read-more {
+            display: inline-block;
+            color: var(--secondary);
+            font-weight: 600;
+            text-decoration: none;
+            border-bottom: 2px solid var(--secondary);
+            padding-bottom: 3px;
+            transition: color 0.3s ease;
+        }
+
+        .read-more:hover {
+            color: var(--primary);
+            border-color: var(--primary);
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <div class="logo" style="line-height: 1.3;">
+            <div style="font-size: 24px; font-weight: 700; color: var(--white);">🌟 Sakshi & Rahul</div>
+            <div style="font-size: 14px; color: #000000; font-weight: 600;">Wealth Academy & Consultancy</div>
+            <div style="font-size: 11px; color: var(--accent-blue); letter-spacing: 0.8px; margin-top: 2px; font-style: italic; font-weight: 600;">"Empowering Investors, Creating Wealth"</div>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html#home">होम</a></li>
+                <li><a href="index.html#about">हमारे बारे में</a></li>
+                <li class="dropdown">
+                    <a href="index.html#services">सेवाएँ <i class="fa-solid fa-chevron-down" style="font-size: 12px; margin-left: 3px;"></i></a>
+                    <div class="dropdown-content">
+                        <a href="consultancy.html"><i class="fa-solid fa-handshake" style="margin-right: 8px;"></i> Consultancy Charges</a>
+                        <a href="training.html"><i class="fa-solid fa-chalkboard-user" style="margin-right: 8px;"></i> Stock Market Training</a>
+                    </div>
+                </li>
+                <li><a href="blog.html" class="active">ब्लॉग</a></li>
+                <li><a href="index.html#calculators">कैलकुलेटर्स</a></li>
+                <li><a href="consultancy.html" class="btn-primary" style="padding: 10px 20px; box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);">परामर्श बुक करें</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Blog Header Banner -->
+    <section class="blog-header">
+        <div class="container">
+            <h1 style="font-size: 3rem; margin-bottom: 15px;">हमारे <span style="color: var(--secondary);">ब्लॉग</span></h1>
+            <p style="font-size: 1.2rem; max-width: 600px; margin: 0 auto; opacity: 0.9;">शेयर मार्केट के ट्रेंड्स, इन्वेस्टमेंट टिप्स और फाइनेंस की दुनिया की ताज़ा जानकारी।</p>
+        </div>
+    </section>
+
+    <!-- Blog Content -->
+    <div class="blog-container">
+        
+        <!-- Welcome Article -->
+        <article class="article-card">
+            <img src="https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?auto=format&fit=crop&q=80" alt="Stock Market Investing" class="article-img">
+            <div class="article-content">
+                <div class="article-meta">
+                    <span><i class="fa-regular fa-calendar"></i> 15 May 2026</span>
+                    <span><i class="fa-solid fa-user-pen"></i> Rahul Ji Palasia</span>
+                    <span><i class="fa-solid fa-tag"></i> Investment Education</span>
+                </div>
+                <h2 class="article-title">Wealth Academy में आपका स्वागत है: वित्तीय आज़ादी की ओर आपका पहला कदम!</h2>
+                <p class="article-text">
+                    नमस्कार दोस्तों! <strong>Sakshi & Rahul Wealth Academy & Consultancy</strong> के इस नए ब्लॉग में आपका हार्दिक स्वागत है। 
+                    हमारा मुख्य उद्देश्य ("Empowering Investors, Creating Wealth") सिर्फ एक टैगलाइन नहीं है, बल्कि यह हमारा वादा है कि हम आपको शेयर मार्केट की गहराइयों और निवेश की बारीकियों को आसान भाषा में समझाएंगे।
+                </p>
+                <p class="article-text">
+                    अक्सर लोग शेयर मार्केट को एक "जुआ" (Gamble) समझते हैं, लेकिन सच यह है कि यदि आपके पास सही ज्ञान, रिस्क मैनेजमेंट की समझ और एक अच्छा मेंटॉर हो, तो शेयर मार्केट लंबे समय में (Long-Term Wealth Creation) का सबसे बेहतरीन जरिया है। 
+                </p>
+                <p class="article-text">
+                    <strong>इस ब्लॉग सेक्शन में आपको भविष्य में क्या मिलेगा?</strong><br>
+                    - मार्केट का वीकली एनालिसिस और ट्रेंड्स।<br>
+                    - लॉन्ग-टर्म इन्वेस्टिंग (Fundamental Analysis) के मूल मंत्र।<br>
+                    - ट्रेडिंग सेटअप्स और रिस्क मैनेजमेंट की प्रैक्टिकल टिप्स।<br>
+                    - हमारी खुद की केस स्टडीज़ और सफलता की कहानियाँ।
+                </p>
+                <p class="article-text">
+                    जुड़े रहें हमारे साथ, क्योंकि सीखने का यह सफर अब शुरू हो चुका है। यदि आप भी एक सफल ट्रेडर और इन्वेस्टर बनना चाहते हैं, तो हमारी अकैडमी और कंसल्टेंसी सेवाएँ हमेशा आपके लिए उपलब्ध हैं। 
+                </p>
+                <a href="#" class="read-more">पूरा आर्टिकल पढ़ें <i class="fa-solid fa-arrow-right" style="font-size: 12px; margin-left: 5px;"></i></a>
+            </div>
+        </article>
+
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container" style="text-align: center;">
+            <div class="logo" style="justify-content: center; margin-bottom: 20px;">
+                <span style="font-size: 24px;">🌟</span> Sakshi & Rahul
+            </div>
+            <p style="opacity: 0.7; font-size: 14px; max-width: 800px; margin: 0 auto 20px;">
+                <strong>बंदिशें और कानूनी नोटिस:</strong> शेयर मार्केट में निवेश और ट्रेडिंग जोखिम के अधीन हैं। ब्लॉग में दी गई जानकारी केवल शैक्षणिक उद्देश्यों के लिए है। किसी भी प्रकार का निवेश निर्णय लेने से पहले अपनी वित्तीय स्थिति और जोखिम क्षमता का मूल्यांकन अवश्य करें।
+            </p>
+            <p style="font-weight: 600;">&copy; 2026 Sakshi & Rahul Wealth Academy & Consultancy. सर्वाधिकार सुरक्षित।</p>
+        </div>
+    </footer>
+
+</body>
+</html>
